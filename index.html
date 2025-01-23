@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/master.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="card">
+            <div class="front">
+                <div class="chip">
+                    <img src="assets/img/shetab.png" alt="">
+                </div>
+                <div class="logo">
+                    <img src="" alt="">
+                </div>
+                <div class="num">
+                    <div class="num1"></div>
+                    <div class="num2"></div>
+                    <div class="num3"></div>
+                    <div class="num4"></div>
+                </div>
+                <span>expires</span>
+                <div class="cvv2">
+                    <span>cvv2</span>
+                    <div class="cv"></div>
+                </div>
+                <div class="date">
+                    <div class="yy"></div>
+                    <span>/</span>
+                    <div class="mm"></div>
+                </div>
+
+            </div>
+            <!-- end of the front page -->
+
+            <div class="back">
+                <div class="black"></div>
+                <span>FULL NAME</span>
+                <div class="name">
+                    <span></span>
+                </div>
+            </div>
+            <!-- end of the back oage -->
+        </div>
+    </div>
+    <!-- end of the cart  -->
+    <div class="place">
+        <div class="form">
+            <div class="inpnum">
+                <h4>card number</h4>
+                <input type="number" maxlength="4">
+                <input type="number" maxlength="4">
+                <input type="number" maxlength="4">
+                <input type="number" maxlength="4">
+            </div>
+            <div class="inpexp">
+                <h4>enter expiration date</h4>
+                <input class="inpmm" type="number" maxlength="2" placeholder="MM">
+                <input class="inpyy" type="number" maxlength="2" placeholder="YY">
+            </div>
+            <div class="inpcv">
+                <h4>enter cvv2</h4>
+                <input type="number" maxlength="4">
+            </div>
+            <div class="sec">
+                <h4>security code</h4>
+                <div>
+                    <p id="randomNumber" onload="random()"></p>
+                </div>
+                <input id="inpsec" type="number">
+            </div>
+            <button class="sub">SUBMIT</button>
+        </div>
+    </div>
+    <footer>
+        <h4>developed by nastaran reyhani . </h4>
+        <h4> https://github.com/Nastaran-reyhani</h4>
+    </footer>
+    <!---- form box ---->
+</body>
+<script src="assets/js/master.js"></script>
+
+</html>
