@@ -1,5 +1,5 @@
 # credit-card
--this is one of my first javaScript ptojects , its a payment getway , i coded this project with my limited knowledge , but im still learning . hope you like it 
+-this is one of my first javaScript projects , its a payment geteway , i coded this project with my limited knowledge , but im still learning . hope you like it :)
 
 - [Demo Project](https://nastaran-reyhani.github.io/credit-card/)
 
